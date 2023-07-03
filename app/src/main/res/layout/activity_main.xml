@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Archive"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnStudent"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title3"
+        android:layout_marginTop="54dp"
+        android:text="View as Student" />
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnStudent"
+        android:layout_marginTop="7dp"
+        android:onClick="goToAdmin"
+        android:text="View as Admin" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="382dp"
+        android:layout_height="158dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="85dp"
+        android:shadowColor="#EF0707"
+        android:text="Developed By \n Nahid Hasan \n Roll  No : 2003131\n Ruet CSE"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#DD0707"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
